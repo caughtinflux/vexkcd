@@ -27,6 +27,12 @@
 	<key>VeloxAppIDs</key>
 	<array>
 		<string>com.joshapp.xkcd</string>
+		<string>ar.com.scxd.xkcd</string>
+		<string>net.dexteroussoft.xkcd</string>
+		<string>com.iversoft.xkcd</string>
+		<string>com.cmotl.xkcd</string>
+		<string>com.telliott.i-heart-xkcd</string>
+		<string>com.sudostudios.xkcd</string>
 	</array>
 	<key>UIDeviceFamily</key>
 	<array>

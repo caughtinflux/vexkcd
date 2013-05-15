@@ -38,6 +38,7 @@
     [super dealloc];
 }
 
+
 - (void)downloadLatestImage
 {
     self.showsActivityIndicator = YES;
