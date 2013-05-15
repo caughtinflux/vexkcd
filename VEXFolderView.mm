@@ -19,13 +19,13 @@
 @synthesize showsActivityIndicator=_showsActivityIndicator;
 + (int)folderHeight
 {
-    return 350;
+    return 330;
 }
 
 - (UIView *)initWithFrame:(CGRect)frame
 {
     if ((self = [super initWithFrame:frame])) {
-        _imageView = [[[UIImageView alloc] initWithFrame:CGRectInset(self.bounds, 10, 10)] autorelease];
+        _imageView = [[[UIImageView alloc] initWithFrame:CGRectInset(self.bounds, 5, 5)] autorelease];
         [self addSubview:_imageView];
         [self downloadLatestImage];
     }
@@ -101,7 +101,7 @@
 
 -(void)unregisterFromStuff
 {
-    [self cleanup];
+    [self cleanup];     
 }
 
 - (void)cleanup

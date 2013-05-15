@@ -1,0 +1,10 @@
+Package: com.caughtinflux.vexkcd
+Name: vexkcd
+Depends: firmware (>= 6.0), com.apextweaks.velox
+Version: 0.0.1-1
+Architecture: iphoneos-arm
+Description: An awesome folder for Velox!
+Maintainer: flux
+Author: flux
+Section: Addons (Velox)
+Installed-Size: 20
